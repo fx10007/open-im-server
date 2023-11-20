@@ -47,7 +47,7 @@ zookeeper:
 mysql:
   address: [ 172.28.0.1:13306 ]
   username: root
-  password: openIM123
+  password: Obliska@774249906
   database: openIM_v3
   maxOpenConn: 1000
   maxIdleConn: 100
@@ -67,7 +67,7 @@ mongo:
   address: [ 172.28.0.1:37017 ]
   database: openIM_v3
   username: root
-  password: openIM123
+  password: Obliska@774249906
   maxPoolSize: 100
 
 ###################### Redis configuration information ######################
@@ -77,7 +77,7 @@ mongo:
 redis:
   address: [ 172.28.0.1:16379 ]
   username: ''
-  password: openIM123
+  password: Obliska@774249906
 
 ###################### Kafka configuration information ######################
 # Kafka configuration
@@ -231,11 +231,11 @@ push:
   enable: getui
   geTui:
     pushUrl: "https://restapi.getui.com/v2/$appId"
-    masterSecret: ''
-    appKey: ''
+    masterSecret: 'Tm0Uh6fwGLAw0yF8FIqxk3'
+    appKey: '60cKfg4yNO8zb7d8iUo9F'
     intent: ''
-    channelID: ''
-    channelName: ''
+    channelID: 'Push'
+    channelName: 'Push'
   fcm:
     serviceAccount: "x.json"
   jpns:
@@ -312,7 +312,7 @@ iosPush:
 # Timeout in seconds
 # Whether to continue execution if callback fails
 callback:
-  url:
+  url:"https://8y312r5538.zicp.fun"
   beforeSendSingleMsg:
     enable: false
     timeout: 5

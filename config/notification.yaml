@@ -17,7 +17,7 @@ groupCreated:
   reliabilityLevel: 1 # 1为online才发送 2为必达
   unreadCount: false # 只在isSendMsg为true的情况下有作用
   offlinePush:
-    enable: false # 开启该开关
+    enable: true # 开启该开关
     title: "create group title" # xx create the group
     desc: "create group desc"
     ext: "create group ext"
@@ -26,22 +26,22 @@ groupCreated:
 
 
 groupInfoSet:
-  isSendMsg: false
+  isSendMsg: true
   reliabilityLevel: 1
   unreadCount: false
   offlinePush:
-    enable: false
+    enable: true
     title: "groupInfoSet title"
     desc: "groupInfoSet desc"
     ext: "groupInfoSet ext"
 
 
 joinGroupApplication:
-  isSendMsg: false
+  isSendMsg: true
   reliabilityLevel: 1
   unreadCount: false
   offlinePush:
-    enable: false
+    enable: true
     title: "joinGroupApplication title"
     desc: "joinGroupApplication desc"
     ext: "joinGroupApplication ext"
@@ -51,7 +51,7 @@ memberQuit:
   reliabilityLevel: 1
   unreadCount: false
   offlinePush:
-    enable: false
+    enable: true
     title: "memberQuit title"
     desc: "memberQuit desc"
     ext: "memberQuit ext"
@@ -61,7 +61,7 @@ groupApplicationAccepted:
   reliabilityLevel: 1
   unreadCount: false
   offlinePush:
-    enable: false
+    enable: true
     title: "groupApplicationAccepted title"
     desc: "groupApplicationAccepted desc"
     ext: "groupApplicationAccepted ext"
@@ -112,7 +112,7 @@ memberEnter:
   reliabilityLevel: 1
   unreadCount: false
   offlinePush:
-    enable: false
+    enable: true
     title: "memberEnter title"
     desc: "memberEnter desc"
     ext: "memberEnter ext"
